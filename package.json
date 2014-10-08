@@ -1,0 +1,11 @@
+{
+  "name": "spotlet.io",
+  "version": "0.0.1",
+  "description": "Spotlet.io Website",
+  "main": "index.js",
+  "author": "Joseph Werle <joseph.werle@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "~4.9.5"
+  }
+}

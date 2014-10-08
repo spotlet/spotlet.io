@@ -1,0 +1,7 @@
+
+name: spotlet.io
+
+## dependencies
+spin: spotlet/spin-node
+spin: spotlet/spin-ui
+

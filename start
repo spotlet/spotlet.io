@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies
+ */
+
+var express = require('express')
+  , http = require('http')
+
+// init
+var PORT = process.env.SPOTLET_HTTP_PORT
+var app = express();
+var server = http.createServer(app);
+
+// middle ware
+app.use(express.static(__dirname + '/public'));
+
+// spins
+app.use(express.static(__dirname + '/spins/spin-ui'));
+
+// listen
+server.listen(PORT);
+
